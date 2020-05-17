@@ -25,3 +25,10 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+## angular service interceptors to inject bearer token with every service dynamically
+
+1. add TokenInterceptor service under app
+
+2. register this service in app.module.ts as a providers
