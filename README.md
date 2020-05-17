@@ -32,3 +32,11 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 1. add TokenInterceptor service under app
 
 2. register this service in app.module.ts as a providers
+
+3. ng serve
+
+4. open browser network tab "https://jsonplaceholder.typicode.com/posts" this url is calling
+
+5. you can check 'Authorization bearer' under 'request headers' are passing 'dummytoken'
+
+6. you can set it to your actual token and don't need to send it with every service call manually
